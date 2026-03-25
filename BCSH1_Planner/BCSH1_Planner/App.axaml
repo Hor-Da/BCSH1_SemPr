@@ -12,4 +12,12 @@
     <Application.Styles>
         <FluentTheme />
     </Application.Styles>
+             
+    <Application.Resources>
+        <SolidColorBrush x:Key="PrimaryBackground" Color="#AAABBC"></SolidColorBrush>
+        <LinearGradientBrush x:Key="PrimaryGradient" StartPoint="0%, 0%" EndPoint="100%, 0%">
+            <GradientStop Color="#373F47" Offset="0"></GradientStop>
+            <GradientStop Color="#6C91C2" Offset="1"></GradientStop>
+        </LinearGradientBrush>
+    </Application.Resources>
 </Application>

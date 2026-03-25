@@ -3,7 +3,9 @@
         xmlns:vm="using:BCSH1_Planner.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        mc:Ignorable="d" d:DesignWidth="1024" d:DesignHeight="600"
+        Width="1024"
+        Height="600"
         x:Class="BCSH1_Planner.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
@@ -14,7 +16,52 @@
              to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
         <vm:MainWindowViewModel/>
     </Design.DataContext>
-
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    
+    <Grid ColumnDefinitions="200, Auto" ShowGridLines="False" Background="{DynamicResource PrimaryBackground}">
+        <Border Background="{DynamicResource PrimaryGradient}" Padding="10">
+            <Grid RowDefinitions="Auto, *" ShowGridLines="False">
+                <StackPanel Spacing="10">
+                    <!-- Placeholder for logo or something -->
+                    <Rectangle Height="60" HorizontalAlignment="Stretch" Fill="#373F47"></Rectangle>
+                    
+                    <!-- Menu -->
+                    <Button HorizontalAlignment="Stretch">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Assets/Images/house-line-bold.png" Height="20"></Image>
+                            <Label Content="Home"></Label>
+                        </StackPanel>
+                    </Button>
+                    
+                    <Button HorizontalAlignment="Stretch">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Assets/Images/address-book-bold.png" Height="20"></Image>
+                            <Label Content="Clients"></Label>
+                        </StackPanel>
+                    </Button>
+                    
+                    <Button HorizontalAlignment="Stretch">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Assets/Images/calendar-dots-bold.png" Height="20"></Image>
+                            <Label Content="Planner"></Label>
+                        </StackPanel>
+                    </Button>
+                    
+                    <Button HorizontalAlignment="Stretch">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Assets/Images/chart-line-up-bold.png" Height="20"></Image>
+                            <Label Content="Statistics"></Label>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                
+                <Button Grid.Row="1" VerticalAlignment="Bottom">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Assets/Images/gear-six-bold.png" Height="20"></Image>
+                        <Label Content="Settings"></Label>
+                    </StackPanel>
+                </Button>
+            </Grid>
+        </Border>
+    </Grid>
 
 </Window>

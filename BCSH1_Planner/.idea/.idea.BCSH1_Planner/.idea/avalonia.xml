@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="BCSH1_Planner/App.axaml" value="BCSH1_Planner/BCSH1_Planner.csproj" />
+        <entry key="BCSH1_Planner/Views/MainWindow.axaml" value="BCSH1_Planner/BCSH1_Planner.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
