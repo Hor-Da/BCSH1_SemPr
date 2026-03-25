@@ -1,4 +1,4 @@
-﻿THPhosphor Icons — MIT License
+﻿Phosphor Icons - MIT License
 
 Copyright (c) 2020 Phosphor Icons
 
