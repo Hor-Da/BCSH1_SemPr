@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BCSH1_Planner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d0acec5145785e14d7c881d97018fe6adf20d63")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4363f54bb43d321e944c701cd5d78db1305bc9ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("BCSH1_Planner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BCSH1_Planner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
