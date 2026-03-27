@@ -8,7 +8,8 @@
     
     <Grid RowDefinitions="*, Auto" RowSpacing="10">
         <ListBox x:Name="Clients" 
-                 SelectionMode="Single"></ListBox>
+                 SelectionMode="Single"
+                 CornerRadius="3"></ListBox>
         
         <Button Grid.Row="1" Content="Test" HorizontalAlignment="Right"></Button>
     </Grid>

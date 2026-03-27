@@ -13,7 +13,10 @@ public partial class ClientsPageView : UserControl
     {
         InitializeComponent();
         Clients.ItemsSource = new string[]
-            {"test1", "test2", "test3", "test4", "test5", "test6", "test7", "test8", "test9", "test10", "test11", "test12", "test13", "test14", "test15", "test16", "test17", "test18", "test19"}
-            .OrderBy(x => x);
+        {
+            "client1", "client2", "client3", "client4", "client5", "client6", "client7", "client8", "client9",
+            "client10", "client11", "client12", "client13", "client14", "client15", "client16", "client17", "client18", 
+            "client19"
+        };
     }
 }
