@@ -9,8 +9,34 @@ public partial class MainWindowViewModel : ViewModelBase
     private bool _isPaneOpen = true;
 
     [ObservableProperty] 
-    private ViewModelBase _currentPage = new HomePageViewModel();
+    private ViewModelBase _currentPage;
+
+    public MainWindowViewModel()
+    {
+        CurrentPage = new HomePageViewModel();
+    }
 
     [RelayCommand]
     private void TogglePane() => IsPaneOpen = !IsPaneOpen;
+
+    [RelayCommand]
+    private void NavigateToHome()
+    {
+        CurrentPage = new HomePageViewModel();
+    }
+    [RelayCommand]
+    private void NavigateToClients()
+    {
+        CurrentPage = new ClientsPageViewModel();
+    }
+    [RelayCommand]
+    private void NavigateToPlanner()
+    {
+        CurrentPage = new PlannerPageViewModel();
+    }
+    [RelayCommand]
+    private void NavigateToStatistics()
+    {
+        CurrentPage = new StatisticsPageViewModel();
+    }
 }

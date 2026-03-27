@@ -32,28 +32,28 @@
                 
                 <Border Grid.Row="1" Padding="10">
                     <StackPanel Spacing="10">
-                        <Button HorizontalAlignment="Stretch" Height="36">
+                        <Button HorizontalAlignment="Stretch" Height="36" Command="{Binding NavigateToHomeCommand}">
                             <StackPanel Orientation="Horizontal">
                                 <Image Source="/Assets/Images/house-line-bold.png" Height="20"></Image>
                                 <Label Content="Home" IsVisible="{Binding IsPaneOpen}"></Label>
                             </StackPanel>
                         </Button>
                     
-                        <Button HorizontalAlignment="Stretch" Height="36">
+                        <Button HorizontalAlignment="Stretch" Height="36" Command="{Binding NavigateToClientsCommand}">
                             <StackPanel Orientation="Horizontal">
                                 <Image Source="/Assets/Images/address-book-bold.png" Height="20"></Image>
                                 <Label Content="Clients" IsVisible="{Binding IsPaneOpen}"></Label>
                             </StackPanel>
                         </Button>
                     
-                        <Button HorizontalAlignment="Stretch" Height="36">
+                        <Button HorizontalAlignment="Stretch" Height="36" Command="{Binding NavigateToPlannerCommand}">
                             <StackPanel Orientation="Horizontal">
                                 <Image Source="/Assets/Images/calendar-dots-bold.png" Height="20"></Image>
                                 <Label Content="Planner" IsVisible="{Binding IsPaneOpen}"></Label>
                             </StackPanel>
                         </Button>
                     
-                        <Button HorizontalAlignment="Stretch" Height="36">
+                        <Button HorizontalAlignment="Stretch" Height="36" Command="{Binding NavigateToStatisticsCommand}">
                             <StackPanel Orientation="Horizontal">
                                 <Image Source="/Assets/Images/chart-line-up-bold.png" Height="20"></Image>
                                 <Label Content="Statistics" IsVisible="{Binding IsPaneOpen}"></Label>

@@ -27,8 +27,17 @@ build_property.EnableGeneratedComInterfaceComImportInterop =
 [C:/Users/Dan/RiderProjects/BCSH1_SemPr/BCSH1_Planner/BCSH1_Planner/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Users/Dan/RiderProjects/BCSH1_SemPr/BCSH1_Planner/BCSH1_Planner/Views/ClientsPageView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/Dan/RiderProjects/BCSH1_SemPr/BCSH1_Planner/BCSH1_Planner/Views/HomePageView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/Dan/RiderProjects/BCSH1_SemPr/BCSH1_Planner/BCSH1_Planner/Views/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Dan/RiderProjects/BCSH1_SemPr/BCSH1_Planner/BCSH1_Planner/Views/PlannerPageView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Dan/RiderProjects/BCSH1_SemPr/BCSH1_Planner/BCSH1_Planner/Views/StatisticsPageView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
