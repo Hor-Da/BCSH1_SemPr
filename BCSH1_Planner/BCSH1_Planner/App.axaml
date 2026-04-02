@@ -14,6 +14,11 @@
     </Application.Styles>
              
     <Application.Resources>
+        <!-- Color pallette
+                #373F47
+                #6C91C2
+                #AAABBC
+            -->
         <SolidColorBrush x:Key="PrimaryBackground" Color="#AAABBC"></SolidColorBrush>
         
         <LinearGradientBrush x:Key="PrimaryGradient" StartPoint="0%, 0%" EndPoint="100%, 0%">

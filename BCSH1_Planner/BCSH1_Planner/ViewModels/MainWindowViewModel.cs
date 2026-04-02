@@ -18,7 +18,7 @@ public partial class MainWindowViewModel : ViewModelBase
 
     [RelayCommand]
     private void TogglePane() => IsPaneOpen = !IsPaneOpen;
-
+    
     [RelayCommand]
     private void NavigateToHome()
     {

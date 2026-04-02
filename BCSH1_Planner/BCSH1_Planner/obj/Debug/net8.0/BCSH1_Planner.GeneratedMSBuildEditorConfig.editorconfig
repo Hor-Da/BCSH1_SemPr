@@ -20,24 +20,24 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BCSH1_Planner
-build_property.ProjectDir = C:\Users\Dan\RiderProjects\BCSH1_SemPr\BCSH1_Planner\BCSH1_Planner\
+build_property.ProjectDir = /home/daniel/Desktop/C# Projekt/final/BCSH1_Planner/BCSH1_Planner/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/Dan/RiderProjects/BCSH1_SemPr/BCSH1_Planner/BCSH1_Planner/App.axaml]
+[/home/daniel/Desktop/C\# Projekt/final/BCSH1_Planner/BCSH1_Planner/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/Dan/RiderProjects/BCSH1_SemPr/BCSH1_Planner/BCSH1_Planner/Views/ClientsPageView.axaml]
+[/home/daniel/Desktop/C\# Projekt/final/BCSH1_Planner/BCSH1_Planner/Views/ClientsPageView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/Dan/RiderProjects/BCSH1_SemPr/BCSH1_Planner/BCSH1_Planner/Views/HomePageView.axaml]
+[/home/daniel/Desktop/C\# Projekt/final/BCSH1_Planner/BCSH1_Planner/Views/HomePageView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/Dan/RiderProjects/BCSH1_SemPr/BCSH1_Planner/BCSH1_Planner/Views/MainWindow.axaml]
+[/home/daniel/Desktop/C\# Projekt/final/BCSH1_Planner/BCSH1_Planner/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/Dan/RiderProjects/BCSH1_SemPr/BCSH1_Planner/BCSH1_Planner/Views/PlannerPageView.axaml]
+[/home/daniel/Desktop/C\# Projekt/final/BCSH1_Planner/BCSH1_Planner/Views/PlannerPageView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/Dan/RiderProjects/BCSH1_SemPr/BCSH1_Planner/BCSH1_Planner/Views/StatisticsPageView.axaml]
+[/home/daniel/Desktop/C\# Projekt/final/BCSH1_Planner/BCSH1_Planner/Views/StatisticsPageView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

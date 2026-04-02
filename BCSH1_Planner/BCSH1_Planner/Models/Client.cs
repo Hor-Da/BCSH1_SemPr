@@ -9,6 +9,5 @@ public class Client
     public string FirstName { get; set; } = "";
     public string LastName { get; set; } = "";
     public DateTime? LastAppointment { get; set; }
-    //public List<AvailabilityRule> Availability { get; set; }
-    
+    public List<AvailabilityRule> Availability { get; set; }
 }

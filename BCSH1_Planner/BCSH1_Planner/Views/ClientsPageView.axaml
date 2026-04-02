@@ -7,6 +7,9 @@
              Background="{DynamicResource PrimaryBackground}">
     
     <Grid RowDefinitions="*, Auto" RowSpacing="10">
+        <!-- Replace ListBox with DataGrid for better display of client information, 
+        and bind it to a collection of clients in the ViewModel 
+        Avalonia version 11.3.12 -->
         <ListBox x:Name="Clients" 
                  SelectionMode="Single"
                  CornerRadius="3"></ListBox>

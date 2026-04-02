@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dan\\RiderProjects\\BCSH1_SemPr\\BCSH1_Planner\\BCSH1_Planner\\BCSH1_Planner.csproj": {}
+    "/home/daniel/Desktop/C# Projekt/final/BCSH1_Planner/BCSH1_Planner/BCSH1_Planner.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dan\\RiderProjects\\BCSH1_SemPr\\BCSH1_Planner\\BCSH1_Planner\\BCSH1_Planner.csproj": {
+    "/home/daniel/Desktop/C# Projekt/final/BCSH1_Planner/BCSH1_Planner/BCSH1_Planner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dan\\RiderProjects\\BCSH1_SemPr\\BCSH1_Planner\\BCSH1_Planner\\BCSH1_Planner.csproj",
+        "projectUniqueName": "/home/daniel/Desktop/C# Projekt/final/BCSH1_Planner/BCSH1_Planner/BCSH1_Planner.csproj",
         "projectName": "BCSH1_Planner",
-        "projectPath": "C:\\Users\\Dan\\RiderProjects\\BCSH1_SemPr\\BCSH1_Planner\\BCSH1_Planner\\BCSH1_Planner.csproj",
-        "packagesPath": "C:\\Users\\Dan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dan\\RiderProjects\\BCSH1_SemPr\\BCSH1_Planner\\BCSH1_Planner\\obj\\",
+        "projectPath": "/home/daniel/Desktop/C# Projekt/final/BCSH1_Planner/BCSH1_Planner/BCSH1_Planner.csproj",
+        "packagesPath": "/home/daniel/.nuget/packages/",
+        "outputPath": "/home/daniel/Desktop/C# Projekt/final/BCSH1_Planner/BCSH1_Planner/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/daniel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -84,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Dan\\.dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.125/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
